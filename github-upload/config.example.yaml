@@ -1,0 +1,7 @@
+# battery limiter config
+startup: true
+debug: false
+timeout: 3600000
+wait: 100
+limit: 80   # stop charging at this % (EC[0xE5])
+resume: 70   # resume charging below this % (EC[0xE4])
